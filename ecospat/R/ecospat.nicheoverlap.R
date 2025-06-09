@@ -317,7 +317,7 @@ ecospat.niche.similarity.test <- function(z1, z2, rep, intersection = 0, rand.ty
     stop("Please choose an alternative hypothesis (higher,lower or different) for the expansion")
   }
   if (isFALSE(stability.alternative %in% c("higher","lower","different"))){
-    stop("Please choose an alternative hypothesis (higher,lower or difefrent) for the stability")
+    stop("Please choose an alternative hypothesis (higher,lower or different) for the stability")
   }
   if (isFALSE(unfilling.alternative %in% c("higher","lower","different"))){
     stop("Please choose an alternative hypothesis (higher,lower or different) for the unfilling")
